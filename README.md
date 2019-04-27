@@ -11,15 +11,27 @@ The function we want to implement is the reservation system which customers can 
 Functionalities and Features:
 There are seven main functions of this program. First one is table setting. It can set the numbers of table from 0 to 20 and the size of the table from 0 to 2147483647.
 
-Second function is display of table status. When second function is excuted, the content will be displayed in the fomrat below:
+Second function is display of table status. When function is excuted, the content will be displayed in the fomrat below:
 
-"Table no.": "size": "state: Available/ Not available"
+For example, table 1 is available:
+Table 1: 
+Size: 10 Time: 0 State: Available
 
-Third function is table booking. User need to enter the table number which they want to book. If the table is not available at that time. It will display the "Failed. Table is not vacant". If it is available, the table will be booked and no other change can be made. Then, it will display "Continue? (Y/N): " for another booking. The booking of a book is only available for 1 hour before. It can book a table for 1 hour and it will release when 1 hour is end.
+For example, table 1 is occupied by customers for 73 minutes:
+Table 1:
+Size: 10 Time: 73 State: Occupied (Overtime!)
 
-Fourth function is table releasing. User can change the table status from booked to available by entering the number of table. It will display "Continue? (Y/N): " for another table to be released.
+For example, table 1 is booked for 61 minutes:
+Table 1:
+Size: 10 Time: 61 State: Booked (Booking Overtime! Please release the booking.)
 
-Fifth function is finding available table. User need to enter the number of customers and the program will search the avaialbe table that the total number of customers can sit on.
+Third function is table releasing. User can change the table status from booked to available by entering the number of table. It will display "Continue? (Y/N): " for another table to be released. 
+
+Fourth function is finding available table. User need to enter the number of customers and the program will search the avaialbe table that the total number of customers can sit on. If there is no avaiable table, it will display "No available table is found."
+
+Fifth function is table booking. User need to enter the personal information such as name and phone. Then, user can enter the table which they want to book. If the table is not available at that time, it will display the "Failed. Table is not vacant". If it is available, the table will be booked and no other change can be made. The booking record will be stored in the "Booking.txt" with format "Name: Phone No.: Table No.: ". Then, it will display "Continue? (Y/N): " for another booking. The booking service of a table is only available for a day and no future booking is allowed. It can book a table for 1 hour and it will be released after an hour.
+
+Sixth function is Release Booking.  
 
 Input/output specifications:
 
