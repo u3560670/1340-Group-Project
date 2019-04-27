@@ -39,7 +39,7 @@ Sixth function is Release Booking. User can cancel a booking or indicate that th
 Seventh function is Table setting. It can set or reset the numbers of table from 0 to 20 and the size of the table from 0 to 2147483647.
 
 Input/output specifications:
-User always input the correct input. For table booking function, user need to input the name in capital letter.
+User always input the correct input. For table booking function, user need to input the name in capital letter. For output, there will be a "Booking.txt" after the table booking function is executed.
 
 Compilation and Execution Instructions:
 After the user input the value, they have to press "enter" to execute the program.
