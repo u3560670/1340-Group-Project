@@ -36,10 +36,12 @@ Fifth function is table booking. User need to enter the personal information suc
 
 Sixth function is Release Booking. User can cancel a booking or indicate that the customer is arrived. If it is cancellation of booking, it will required user to enter the table number and release the table status from booked to avaiable. If customer is arrived, it will also required user to enter the table number and change the table status from booked to occupied.
 
-Seventh function is Table setting. It can set or reset the numbers of table from 0 to 20 and the size of the table from 0 to 2147483647.
+Seventh function is Table setting. It can set or reset the numbers of table from 0 to 20 and the size of the table from 0 to 20.
 
 Input/output specifications:
 User always input the correct input. For table booking function, user need to input the name in capital letter. For output, there will be a "Booking.txt" after the table booking function is executed.
+For example:
+Name: Chan Tai Man Phone No.:12345678 Table No.: 1
 
 Compilation and Execution Instructions:
 After the user input the value, they have to press "enter" to execute the program.
