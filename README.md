@@ -31,7 +31,7 @@ Fourth function is finding available table. User need to enter the number of cus
 
 Fifth function is table booking. User need to enter the personal information such as name and phone. Then, user can enter the table which they want to book. If the table is not available at that time, it will display the "Failed. Table is not vacant". If it is available, the table will be booked and no other change can be made. The booking record will be stored in the "Booking.txt" with format "Name: Phone No.: Table No.: ". Then, it will display "Continue? (Y/N): " for another booking. The booking service of a table is only available for a day and no future booking is allowed. It can book a table for 1 hour and it will be released after an hour.
 
-Sixth function is Release Booking.  
+Sixth function is Release Booking. User can cancel a booking or indicate that the customer is arrived. If it is cancellation of booking, it will required user to enter the table number and release the table status from booked to avaiable. If customer is arrived, it will also required user to enter the table number and change the table status from booked to occupied.
 
 Input/output specifications:
 
