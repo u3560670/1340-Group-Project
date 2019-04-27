@@ -17,13 +17,13 @@ For example, table 1 is available:
 Table 1: 
 Size: 10 Time: 0 State: Available
 
-For example, table 1 is occupied by customers for 73 minutes:
+For example, table 1 is occupied by customers for 2 hours:
 Table 1:
-Size: 10 Time: 73 State: Occupied (Overtime!)
+Size: 10 Time: 7200 State: Occupied (Overtime!)
 
-For example, table 1 is booked for 61 minutes:
+For example, table 1 is booked for 1 hours:
 Table 1:
-Size: 10 Time: 61 State: Booked (Booking Overtime! Please release the booking.)
+Size: 10 Time: 3600 State: Booked (Booking Overtime! Please release the booking.)
 
 Second function is table occupying. When a customers is arrived the restaurant without booking, it can be provided an available table by this function. User need to enter the table number and the table 
 
