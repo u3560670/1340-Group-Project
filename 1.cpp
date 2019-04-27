@@ -106,7 +106,7 @@ void findTable(Info table[]) {
     }
   }
   if (min == -1)
-    cout << "No available table was found." << endl;
+    cout << "No available table is found." << endl;
   else
     cout << "Table " << min+1 << " is availtable."<< endl;
 }
