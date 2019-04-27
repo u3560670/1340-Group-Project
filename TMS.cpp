@@ -142,7 +142,7 @@ void addBooking(Info table[]) {
         cout << "Failed to open file.";
         return;
       }
-      fout << "Name: " << name << "  Phone No.: " << phone << "  Table No.: " << num;
+      fout << "Name: " << name << "  Phone No.: " << phone << "  Table No.: " << num << endl;
       fout.close();
     }
     cout << "Add another booking? (Y/N): ";
