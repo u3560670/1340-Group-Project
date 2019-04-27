@@ -44,9 +44,9 @@ void showTable(Info table[]) {
           cout << "  State: Occupied";
         else if (table[i].state == 2)
           cout << "  State: Booked";
-        if ((time(NULL)-table[i].t) > 72 && table[i].state == 1)
+        if ((time(NULL)-table[i].t) > 7200 && table[i].state == 1)
           cout << " (Overtime!)" << endl;
-        else if ((time(NULL)-table[i].t) > 36 && table[i].state == 2)
+        else if ((time(NULL)-table[i].t) > 3600 && table[i].state == 2)
           cout << " (Booking Overtime! Please release the booking.)" << endl;
       }
     }
