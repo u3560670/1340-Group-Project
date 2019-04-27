@@ -15,7 +15,7 @@ struct Info {
 void createTable(Info table[]) {
   int num, size;
 
-  cout << "Number of tables: ";
+  cout << "Number of table: ";
   cin >> num;
   for (int i = 0; i < MAX; i++) {
     if (i < num) {
