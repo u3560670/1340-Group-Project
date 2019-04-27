@@ -22,9 +22,9 @@ For example, table 1 is occupied by customers for 2 hours:
 Table 1:
 Size: 10 Time: 7200 State: Occupied (Overtime!)
 
-For example, table 1 is booked for 1 hours:
+For example, table 1 is booked for longer than 1 hours:
 Table 1:
-Size: 10 Time: 3600 State: Booked (Booking Overtime! Please release the booking.)
+Size: 10 Time: 3601 State: Booked (Booking Overtime! Please release the booking.)
 
 Second function is table occupying. When a customers is arrived the restaurant without booking, it can be provided an available table by this function. User need to enter the table number and the table status will be changed to occupied.
 
