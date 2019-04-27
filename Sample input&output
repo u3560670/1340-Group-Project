@@ -1,0 +1,112 @@
+Sample 1:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 1
+Table 1: 
+Size: 10 Time: 0 State: Available
+
+Table 2:
+Size: 10 Time: 7200 State: Occupied (Overtime!)
+
+Table 3:
+Size: 10 Time: 3601 State: Booked (Booking Overtime! Please release the booking.)
+
+Sample 2:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 2
+Table Number: 1
+Release another table? (Y/N): N
+
+Sample 3:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 3
+Table Number: 1
+Release another table? (Y/N): N
+
+Sample 4:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 4
+Number of customers: 21
+No available table is found.
+
+Sample 5:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 5
+Please enter the name: CHAN
+Please enter phone number: 12345678
+Table Number: 1
+Add another booking? (Y/N): N
+
+Sample 6:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 6
+
+1: Cancel Booking
+2: Customer Arrived
+Please enter your choice (1/2): 1
+Please enter the booked table number: 1
+Table was not booked.
+
+Sample 7:
+Table Management System
+************************
+1: Check Table
+2: Occupy Table
+3: Release Table
+4: Find Table
+5: Add Booking
+6: Release Booking
+7: Reset Tables
+Please enter your choice (1-7): 7
+
+Number of tables:3
+Size of table 1: 10
+Size of table 2: 10
+Size of table 3: 10
