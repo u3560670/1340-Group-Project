@@ -41,9 +41,9 @@ void showTable(Info table[]) {
       else {
         cout << "  Time: " << time(NULL)-table[i].t << "s";
 
-        if ((time(NULL)-table[i].t) > 72 && table[i].state == 1)
+        if ((time(NULL)-table[i].t) > 7200 && table[i].state == 1)
           cout << "  State: Occupied (Overtime!)" << endl;
-        else if ((time(NULL)-table[i].t) > 36 && table[i].state == 2)
+        else if ((time(NULL)-table[i].t) > 3600 && table[i].state == 2)
           cout << "  State: Booked (Booking Overtime!)" << endl;
         else if (table[i].state == 1)
           cout << "  State: Occupied" << endl;
